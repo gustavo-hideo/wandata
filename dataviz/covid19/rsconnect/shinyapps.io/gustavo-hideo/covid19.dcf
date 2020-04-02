@@ -1,0 +1,12 @@
+name: covid19
+title: covid19
+username:
+account: gustavo-hideo
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1994927
+bundleId: 2954252
+url: https://gustavo-hideo.shinyapps.io/covid19/
+when: 1585752568.65676
+asMultiple: FALSE
+asStatic: FALSE
