@@ -28,6 +28,14 @@ Deaths <- read_csv('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/ma
          'Country'=`Country/Region`) %>% 
   mutate(status = 'Deaths')
 
+
+pop <- read_csv('https://raw.githubusercontent.com/gustavo-hideo/wandata/master/data/global_population_density.csv',
+                skip=2,
+                col_names = c('n', 'country', 'year', 'series', 'value', 'n2', 'n3')) %>% 
+  select(country, year, series, value) %>% 
+  filter(year == 2019)
+
+
 ###########################################
 
 
@@ -49,6 +57,9 @@ covid <- pivot_longer(covid,
              names_to='Date',
              values_to='Cases')%>% 
   mutate(Date = lubridate::mdy(Date))
+
+#covid <- covid.l %>% 
+  
 
 ###########################################
 
