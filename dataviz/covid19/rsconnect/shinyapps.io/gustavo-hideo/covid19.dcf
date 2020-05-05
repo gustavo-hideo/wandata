@@ -5,8 +5,8 @@ account: gustavo-hideo
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1994927
-bundleId: 2992577
+bundleId: 3108408
 url: https://gustavo-hideo.shinyapps.io/covid19/
-when: 1586445664.20482
+when: 1588720519.36243
 asMultiple: FALSE
 asStatic: FALSE
